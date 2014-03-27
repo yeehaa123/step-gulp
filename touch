@@ -1,0 +1,18 @@
+# gulpJS
+
+A wercker step to execute tests using the gulp-cli.
+
+You should have nodejs installed and you have to add the `gulp` package
+to your package.json.
+
+## Example Usage
+
+In your [wercker.yml](http://devcenter.wercker.com/articles/werckeryml/)
+file under the `build` section: 
+
+``` bash
+  build:
+    steps:
+      - gulp
+```
+
